@@ -1,0 +1,22 @@
+.header {
+    color: rgb(0, 128, 128);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+thead tr {
+    background-color: #8feeff;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
