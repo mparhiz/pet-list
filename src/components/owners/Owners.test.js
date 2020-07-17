@@ -36,7 +36,7 @@ describe('OwnersComponent', () => {
         expect(component).toMatchSnapshot();
     });
 
-    it('should render correctly in "debug" mode', () => {
+    it('should render correctly when press button', () => {
         const component = mount(<Owners />);
         component
             .find('button')

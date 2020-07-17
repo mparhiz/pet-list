@@ -1,7 +1,7 @@
 import { getOwnerList } from "./owner.service";
 
 describe('OwnerService', () => {
-    it("renders a list of two owners", () => {
+    it("returns a list of two owners", () => {
         const mockOwners = [
             {
                 "name":"Bob",
